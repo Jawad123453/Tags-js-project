@@ -1,0 +1,84 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(62, 62, 173);
+  height:100vh;
+  width: 100vw;
+}
+.box{
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  box-shadow: 1px 1px 10px black;
+  padding:20px;
+  width: 600px;
+}
+.box > h1{
+  font-size: 25px;
+}
+.box > p{
+  margin: 15px 0;
+}
+.box .maininput{
+  border: 1px solid rgb(62, 62, 173);
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  padding:10px;
+}
+.box .maininput .placing{
+  display: flex;
+  gap:10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.box .maininput .placing span{
+  padding:5px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: rgb(219, 219, 219);
+  color:black;
+}
+.box .maininput .placing span button{
+  background-color: rgb(190, 190, 190);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.box .maininput input{
+  flex:1;
+  border: none;
+  font-size: 20px;
+  padding:10px;
+  height:50px;
+}
+.box .maininput input:focus{
+  outline: none;
+}
+.box .mainreult{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .mainreult p{
+  font-size: 18px;
+}
+.box .mainreult button{
+  font-size: 18px;
+  border-radius: 5px;
+  color:white;
+  border: none;
+  background-color: rgb(62, 62, 173);
+  padding:10px 20px;
+  cursor: pointer;
+}
